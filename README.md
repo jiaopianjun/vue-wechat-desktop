@@ -1,10 +1,9 @@
-# y
+Vue 全家桶 桌面版微信
+只完成了聊天界面，
+其他有时间在弄吧
 
-> A Vue.js project
+大家可以参考我得另外一个VUE 聊天项目。wnchat  已经上线
 
-## Build Setup
-
-``` bash
 # install dependencies
 npm install
 
@@ -14,17 +13,3 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
