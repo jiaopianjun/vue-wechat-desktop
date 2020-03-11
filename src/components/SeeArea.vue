@@ -12,8 +12,10 @@
           v-for="(list, index) in messageList" :key="index">
           <span v-if="list.megType === 2">{{list.megTime}}</span>
           <img :src="list.avator" alt="" v-if="list.megType === 1" class="userAvator" />
-          <pre class="messageText" v-if="list.megType !== 2 && list.textType === 0">{{list.megText}}</pre>
-          <pre class="messageText" v-if="list.megType !== 2 && list.textType === 1"><img :src="list.megText" alt=""></pre>
+          <pre class="messageText" v-if="list.megType !== 2 && list.textType === 0">
+            {{list.megText}}
+            <img v-if="list.megType !== 2 && list.textType === 1" :src="list.megText" alt="">
+          </pre>
           <img :src="list.avator" alt="" v-if="list.megType === 0" class="userAvator" />
         </div>
       </div>
@@ -26,7 +28,6 @@
             <img src="@/assets/images/barfile.png" class="barfile" alt="">
             <input @change="chooseImg" type="file" accept="image/*" />
           </div>
-          
           <img src="@/assets/images/screen.png" class="screen" alt="">
           <img src="@/assets/images/chatrecord.png" class="chat" alt="">
         </div>
@@ -82,7 +83,7 @@ export default {
       classList: ['messageRight','messageLeft','messageTime'],
       messageList: [
         {
-          avator: '@/assets/images/avator.jpg',
+          avator: 'https://web.lieme.cn/stack/72.jpg',
           megType: 0, // 0 自己 1 对方 2 时间
           megText: '有什么学前端的公众号推荐的嘛',
           megTime: '22:22',
