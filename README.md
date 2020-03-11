@@ -1,3 +1,4 @@
+![mac](http://blogimg.lieme.cn/Fn2HrGSJZP09NmLEcNDYmNdJ86D8)
 # 🔥🔥一款高仿mac版微信的单页面应用
 
 ## 概述
