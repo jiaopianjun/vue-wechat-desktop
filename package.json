@@ -32,6 +32,7 @@
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "typescript": "~3.7.5",
+    "vue-cli-plugin-sass-resources-loader": "^1.0.0",
     "vue-template-compiler": "^2.6.11"
   }
 }
